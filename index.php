@@ -1,5 +1,5 @@
 <?php
 
-    header('Location: ./modules/login/index.php');
+    header('Location: ./modules/login/login.php');
 
 ?>
