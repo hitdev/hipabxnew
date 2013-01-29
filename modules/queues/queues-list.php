@@ -3,15 +3,15 @@
 	session_start();
 	
 	include('../../includes/security.php');
-	include($_SESSION['BASE_PATH'].'includes/db.php');
+	include('../../includes/db.php');
 ?>        
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<?php include($_SESSION['BASE_PATH'].'includes/head.php'); ?>
+	<?php include('../../includes/head.php'); ?>
 </head>    
 <body>
-	<?php include($_SESSION['BASE_PATH'].'includes/menu.php'); ?>
+	<?php include('../../includes/menu.php'); ?>
     <div class="container">
    <table class="table table-bordered table-striped">
         	<thead>

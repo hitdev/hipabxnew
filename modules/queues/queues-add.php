@@ -3,7 +3,7 @@
 	session_start();
 	
 	include('../../includes/security.php');
-	include($_SESSION['BASE_PATH'].'includes/db.php');
+	include('../../includes/db.php');
         
         if(isset($_POST['queue']['name'])){
             echo "<pre>";
@@ -17,10 +17,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<?php include($_SESSION['BASE_PATH'].'includes/head.php'); ?>
+	<?php include('../../includes/head.php'); ?>
 </head>    
 <body>
-	<?php include($_SESSION['BASE_PATH'].'includes/menu.php'); ?>
+	<?php include('../../includes/menu.php'); ?>
      <div class="container">
        <form accept-charset="ISO-8859-1" action="" class="simple_form form-horizontal" id="queue_insert" method="post" >
            
